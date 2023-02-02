@@ -74,6 +74,7 @@ public class CardTrick {
         for (int i = 0; i < hand.length; i++) {
             if (userValue == hand[i].getValue() && suit.equals(hand[i].getSuit())) {
                 System.out.println("Congratulations, you guessed right!");
+                printInfo();
             }
             
         }
@@ -94,19 +95,19 @@ public class CardTrick {
         System.out.println("Congratulations, you guessed right!");
         System.out.println();
 
-        System.out.println("My name is Paul, but you can call me prof, Paul or sir");
+        System.out.println("My name is Aditya, but you can call me Adi");
         System.out.println();
 
-        System.out.println("My career ambitions:");
-        System.out.println("-- Be more active on LinkedIn");
-        System.out.println("-- Have a semester with no violations of academic integrity!");
+        System.out.println("My career ambitions: Get employment in an IT related field");
+        System.out.println("-- Be an active parent");
+        System.out.println("-- Keep my GPA within Coop range");
         System.out.println();
 
         System.out.println("My hobbies:");
-        System.out.println("-- Investing");
+        System.out.println("-- Brewing");
         System.out.println("-- Cooking");
         System.out.println("-- Reading/Watching TV");
-        System.out.println("-- Riding my motorcycle");
+        System.out.println("-- Travelling with my family");
 
         System.out.println();
 
